@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 20px;
+}
+
+.chatbot-container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.chat-window {
+  border: 1px solid #ccc;
+  padding: 10px;
+  max-height: 300px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+.user-message {
+  text-align: right;
+  margin: 5px 0;
+  color: #000;
+}
+
+.bot-message {
+  text-align: left;
+  margin: 5px 0;
+  color: #007bff;
+}
+
+input {
+  width: 300px;
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Style for the new buttons */
+.button-container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.action-button {
+  padding: 10px 15px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#clear-chat-button {
+  background-color: #dc3545; /* Red for clear */
+}
+
+#clear-chat-button:hover {
+  background-color: #c82333;
+}
+
+#recover-chat-button {
+  background-color: #17a2b8; /* Blue for recover */
+}
+
+#recover-chat-button:hover {
+  background-color: #138496;
+}
